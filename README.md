@@ -6,7 +6,7 @@ A command-line python utility to generate the bytewise xor result of multiple fi
 usage: xorfile.py [-h] [-p PARTS] file [file ...]
 
 Write the result of XORing multiple files to stdout. Divide a single file into
-parts by XORing with random data using the -p option.
+parts by XOR-ing with random data using the -p option.
 
 positional arguments:
 * _file_ - files to XOR
