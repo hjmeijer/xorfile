@@ -3,7 +3,7 @@
 import os
 import argparse
 
-RANDOM_FILE = "/dev/urandom" # use /dev/random for better randomness
+RANDOM_FILE = "/dev/urandom"
 NAME_PATTERN = "%s.%dof%d.bin"
 
 def xor_files(filenames):
